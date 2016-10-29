@@ -2,7 +2,7 @@ $(function() {
         $.ajax({url:'https://www.codeschool.com/users/131425.json',
                         dataType:'jsonp',
                         success: function(result) {
-                                $.each(result.courses.completed, function(courseCompleted) {
+                                $.each(result.courses.completed, function(index, courseCompleted) {
                                         var badge = $('<div></div>');
                                         badge.addClass('course');
                                         var title = $('<h3></h3>');
