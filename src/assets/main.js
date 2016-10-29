@@ -1,5 +1,5 @@
 $(function() {
-        $.ajax({url:'https://www.codeschool.com/users/131425',
+        $.ajax({url:'https://www.codeschool.com/users/131425.json',
                         dataType:'jsonp',
                         success: function(result) {
                                 $.each(result.courses.completed, function(courseCompleted) {
