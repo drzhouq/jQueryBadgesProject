@@ -13,7 +13,7 @@ $(function() {
                                         button.text('See Course');
                                         button.attr('href',courseCompleted.url);
                                         button.attr('target','_blank');
-                                        button.addClass('btn).addClass('btn-Primary');
+                                        button.addClass('btn').addClass('btn-Primary');
                                         badge.append(title);
                                         badge.append(image);
                                         badge.append(button);
